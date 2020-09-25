@@ -9,23 +9,23 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.background.paper,
         padding: theme.spacing(8, 0, 6),
     },
+    title: {
+        fontWeight: 'bold',
+        marginBottom: theme.spacing(3)
+    },
+    description: {
+        lineHeight: 2.3
+    },
     large: {
         width: theme.spacing(20),
         height: theme.spacing(20),
     },
     spacing: {
         marginBottom: theme.spacing(6)
-    },
-    description: {
-        lineHeight: 2.3
-    },
-    title: {
-        fontWeight: 'bold',
-        marginBottom: theme.spacing(3)
     }
 }));
 
-export default function Album() {
+export default function Header() {
     const classes = useStyles();
 
     return (
