@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function Resume({ ...props }) {
+export default function ResumeCard({ ...props }) {
     const classes = useStyles();
 
     return (

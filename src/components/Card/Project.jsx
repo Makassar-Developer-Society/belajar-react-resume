@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function SimpleCard({ ...props }) {
+export default function ProjectCard({ ...props }) {
     const classes = useStyles();
 
     return (

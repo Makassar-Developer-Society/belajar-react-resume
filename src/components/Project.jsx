@@ -5,11 +5,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import ProjectCard from './Card/Project';
 
 const useStyles = makeStyles((theme) => ({
-    spacing: {
+    containerSpacing: {
         paddingTop: theme.spacing(5),
         paddingBottom: theme.spacing(6),
     },
-    description: {
+    spacing: {
         paddingBottom: theme.spacing(5),
     },
     containerPadding: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function Album() {
+export default function Project() {
     const classes = useStyles();
 
     const project = [
@@ -37,9 +37,9 @@ export default function Album() {
 
     return (
         <div>
-            <Grid container className={classes.spacing}>
+            <Grid container className={classes.containerSpacing}>
                 <Grid item xs>
-                    <Typography variant="h3" align="left" color="textPrimary" className={classes.description}>
+                    <Typography variant="h3" align="left" color="textPrimary" className={classes.spacing}>
                         <b>PROJECTS</b>
                     </Typography>
                     <Grid container className={classes.containerPadding} spacing={3}>

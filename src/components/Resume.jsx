@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import Resume from './Card/Resume';
+import ResumeCard from './Card/Resume';
 
 const useStyles = makeStyles((theme) => ({
     containerSpacing: {
@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function Album() {
+export default function Resume() {
     const classes = useStyles();
 
     const work = [
@@ -65,7 +65,7 @@ export default function Album() {
                             {
                                 work.map(x => (
                                     <Grid item xs={12} lg={6} key={x.id}>
-                                        <Resume title={x.title} description={x.description} year={x.year} />
+                                        <ResumeCard title={x.title} description={x.description} year={x.year} />
                                     </Grid>
                                 ))
                             }
@@ -79,7 +79,7 @@ export default function Album() {
                             {
                                 education.map(x => (
                                     <Grid item xs={12} lg={6} key={x.id}>
-                                        <Resume title={x.title} description={x.description} year={x.year} />
+                                        <ResumeCard title={x.title} description={x.description} year={x.year} />
                                     </Grid>
                                 ))
                             }
