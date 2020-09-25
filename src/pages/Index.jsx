@@ -4,6 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 // import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Project from '../components/Project';
+import Resume from '../components/Resume';
 import Footer from '../components/Footer';
 
 // const useStyles = makeStyles((theme) => ({
@@ -28,6 +29,7 @@ export default function Album() {
                 <Header />
                 <Container maxWidth="md">
                     <Project />
+                    <Resume />
                 </Container>
             </main>
             <Footer />
