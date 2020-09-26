@@ -25,12 +25,14 @@ export default function Project() {
             id: 1,
             title: 'CMS SYSTEM',
             description: <span>is a <b>CONTENT MANAGEMENT SYSTEM</b> for <b>TOKO DIGITAL</b>.</span>,
+            link: 'https://metrotechdigital.asia/',
             img: "https://res.cloudinary.com/metrotech-digital-asia/image/upload/v1600759250/official-web/new-portfolio/toko-digital1_jqychh.png"
         },
         {
             id: 2,
             title: 'LIVE CHAT',
             description: <span>is a <b>CUSTOMER SERVICE</b> representative in order to handle customer for <b>TOKO DIGITAL</b>.</span>,
+            link: 'https://metrotechdigital.asia/',
             img: "https://res.cloudinary.com/metrotech-digital-asia/image/upload/v1600759424/official-web/new-portfolio/toko-digital2_s7brx3.png"
         }
     ]
@@ -46,7 +48,7 @@ export default function Project() {
                         {
                             project.map(x => (
                                 <Grid item xs={12} lg={12} key={x.id}>
-                                    <ProjectCard title={x.title} description={x.description} img={x.img} />
+                                    <ProjectCard title={x.title} link={x.link} description={x.description} img={x.img} />
                                 </Grid>
                             ))
                         }

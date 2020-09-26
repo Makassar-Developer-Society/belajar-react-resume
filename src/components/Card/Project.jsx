@@ -45,6 +45,9 @@ const useStyles = makeStyles((theme) => ({
     },
     buttonIcon: {
         marginRight: 10
+    },
+    removeUnderline: {
+        textDecoration: 'none'
     }
 }));
 
@@ -64,9 +67,11 @@ export default function ProjectCard({ ...props }) {
                                 {props.description}
                             </Typography>
                             <div className={classes.buttonSpacing}>
-                                <Button variant="contained" size="large" className={classes.button}>
-                                    <VisitIcon className={classes.buttonIcon} /> Visit Website
-                                </Button>
+                                <a href={props.link} target="_blank" rel="noopener noreferrer" className={classes.removeUnderline}>
+                                    <Button variant="contained" size="large" className={classes.button}>
+                                        <VisitIcon className={classes.buttonIcon} /> Visit Website
+                                    </Button>
+                                </a>
                             </div>
                         </CardContent>
                     </Grid>

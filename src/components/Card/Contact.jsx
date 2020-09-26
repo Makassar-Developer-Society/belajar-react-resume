@@ -24,10 +24,14 @@ const useStyles = makeStyles({
     availableButton: {
         fontWeight: 'bold',
         backgroundColor: '#000',
-        color: '#fff'
+        color: '#fff',
+        textDecoration: 'none'
     },
     center: {
         alignSelf: 'center'
+    },
+    removeUnderline: {
+        textDecoration: 'none'
     }
 });
 
@@ -39,7 +43,9 @@ export default function ContactCard() {
             <CardContent className={classes.content}>
                 <div className={classes.base}>
                     <div style={{ marginRight: 30 }}>
-                        <Button variant="contained" size="large" className={classes.availableButton}>AVAILABLE FOR HIRE</Button>
+                        <a href="mailto:EMAILADDRESS" className={classes.removeUnderline}>
+                            <Button variant="contained" size="large" className={classes.availableButton}>AVAILABLE FOR HIRE</Button>
+                        </a>
                     </div>
                     <div className={classes.center}>
                         <Typography className={classes.title}>
