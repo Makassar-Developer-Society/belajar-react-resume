@@ -44,7 +44,7 @@ export default function Resume() {
         },
         {
             id: 2,
-            title: 'Smk Telkom Makassar',
+            title: 'SMK Telkom Makassar',
             description: 'Computer and Networking',
             year: '2011 - 2014'
         }

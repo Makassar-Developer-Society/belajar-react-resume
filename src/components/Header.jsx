@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontWeight: 'bold',
-        marginBottom: theme.spacing(3)
+        paddingBottom: theme.spacing(5)
     },
     description: {
         lineHeight: 2.3
