@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/belajar-react-resume/static/css/main.65419d3e.chunk.css",
+    "main.js": "/belajar-react-resume/static/js/main.b301e1ae.chunk.js",
+    "main.js.map": "/belajar-react-resume/static/js/main.b301e1ae.chunk.js.map",
+    "runtime-main.js": "/belajar-react-resume/static/js/runtime-main.46ef18c0.js",
+    "runtime-main.js.map": "/belajar-react-resume/static/js/runtime-main.46ef18c0.js.map",
+    "static/js/2.b3314231.chunk.js": "/belajar-react-resume/static/js/2.b3314231.chunk.js",
+    "static/js/2.b3314231.chunk.js.map": "/belajar-react-resume/static/js/2.b3314231.chunk.js.map",
+    "index.html": "/belajar-react-resume/index.html",
+    "precache-manifest.1a64b9146e74adf00c5cbaa2e475ad51.js": "/belajar-react-resume/precache-manifest.1a64b9146e74adf00c5cbaa2e475ad51.js",
+    "service-worker.js": "/belajar-react-resume/service-worker.js",
+    "static/css/main.65419d3e.chunk.css.map": "/belajar-react-resume/static/css/main.65419d3e.chunk.css.map",
+    "static/js/2.b3314231.chunk.js.LICENSE.txt": "/belajar-react-resume/static/js/2.b3314231.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/belajar-react-resume/static/media/Raleway-Light.6c084270.ttf",
+    "static/media/me.jpeg": "/belajar-react-resume/static/media/me.53e639e0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46ef18c0.js",
+    "static/js/2.b3314231.chunk.js",
+    "static/css/main.65419d3e.chunk.css",
+    "static/js/main.b301e1ae.chunk.js"
+  ]
+}
