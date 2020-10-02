@@ -35,11 +35,11 @@ export default function Header() {
                     <Avatar alt="Remy Sharp" src={require("../assets/img/me.jpeg")} className={classes.large} />
                 </div>
                 <Typography variant="h3" align="left" className={classes.title} gutterBottom>
-                    Hi, Abd Rahman
+                    Hi, I'm Alkautsar Sanusi
                 </Typography>
                 <Typography variant="h6" align="left" className={classes.description}>
-                    I'm a <b>COTO</b> and <b>MOBILE DEVELOPER</b> from <b>MAKASSAR</b>, Indonesia.
-                    Passionate about what I do and always learning something new. <b>ADAKAH</b> and <b>KOPI</b> is the key that I always believe it once I handle a project.
+                    I'm a <b>WEBSITE</b> and <b>MOBILE DEVELOPER</b> from <b>MAKASSAR</b>, Indonesia.
+                    Passionate about what I do and always learning something new. <b>TRUST</b> and <b>QUALITY</b> is the key that I always believe it once I handle a project.
                 </Typography>
             </Container>
         </div>
